@@ -1,0 +1,9 @@
+.classpath
+.project
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
+src/test/java/com/platzi/mensajes_app2/AppTest.java
+target/classes/com/platzi/mensajes_app2/App.class
+target/classes/com/platzi/mensajes_app2/Conexion.class
+target/test-classes/com/platzi/mensajes_app2/AppTest.class
