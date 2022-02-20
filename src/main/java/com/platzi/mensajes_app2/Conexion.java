@@ -9,12 +9,10 @@ import javax.swing.JOptionPane;
 public class Conexion {
     Connection conector = null;
 
-    public Connection establecerConexion(){
+    public Connection get_connection(){
     	
-        try {
-        	          
+        try {       
         	conector = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/mensajes_app?serverTimezone=UTC","root","");
-            JOptionPane.showMessageDialog(null, "Se conecto correctamente");
 
         }catch (SQLException e){
             JOptionPane.showMessageDialog(null, "Error de conexion: "+e.toString());
